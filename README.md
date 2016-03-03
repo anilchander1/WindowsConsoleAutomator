@@ -59,12 +59,12 @@ Any line starting  with <strong>';'</strong> anywhere in ini file will be treate
 Example: <br>
 
 [SequenceCommands]<br>
-login=.*login.*|user1|password|END<br>
-password=.*password.*|passwd|prompt|END<br>
+login=.\*login.\*|user1|password|END<br>
+password=.\*password.\*|passwd|prompt|END<br>
 ;execute somecommand when prompt contains username<br>
-prompt=.*user1.*>|somecommand|ls#|END|3<br>
+prompt=.\*user1.\*>|somecommand|ls#|END|3<br>
 ;check the result of somecommand execution contains "hist" and go to end.<br>
-ls#=.*hist.*|END<br>
+ls#=.\*hist.\*|END<br>
 END=logout<br>
 
 
