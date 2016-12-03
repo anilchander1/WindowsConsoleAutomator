@@ -1,0 +1,397 @@
+2016-12-03 10:20:46,932 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:21:15,841 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:21:15,849 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:26:45,890 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:26:45,910 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:26:45,921 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:28:25,244 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:28:57,953 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:28:57,966 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:31:25,389 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:31:25,415 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 10:31:25,431 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:31:25,440 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:31:39,152 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 10:31:39,162 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 10:46:56,468 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:47:02,667 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 10:47:04,405 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:47:04,412 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:50:02,584 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:50:04,535 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 10:50:04,724 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:50:04,736 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:50:51,691 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:50:51,711 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 10:50:51,724 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:50:51,732 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 10:51:04,392 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 10:51:04,403 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 10:57:49,974 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 10:57:49,991 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 10:57:50,000 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 10:57:50,009 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:02:13,794 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:02:13,813 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:02:13,823 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:02:13,831 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:02:26,491 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:02:26,502 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:09:36,418 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:09:36,448 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:09:36,460 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:09:36,471 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:12:32,514 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:12:32,526 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:12:32,533 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:12:32,539 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:12:45,197 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:12:45,211 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:14:18,533 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:14:18,555 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:14:18,570 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:14:18,582 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:14:31,323 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:14:31,335 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:22:05,609 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:22:05,621 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:22:05,628 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:22:05,634 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:22:18,299 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:22:18,308 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:26:44,564 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:26:44,574 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:26:44,579 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:26:44,584 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:26:57,247 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:26:57,257 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:27:58,438 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:27:58,445 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:27:58,450 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:27:58,452 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:28:11,111 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:28:11,121 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:29:44,052 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:29:44,060 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:29:44,065 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:29:44,068 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:29:56,819 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:29:56,831 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:35:26,798 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:35:26,805 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:35:26,809 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:35:26,811 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:35:40,507 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:35:40,525 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:45:33,600 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:45:33,620 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:45:33,630 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:45:33,641 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:46:52,443 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:46:52,462 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:46:52,473 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:46:52,480 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:47:05,155 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:47:05,165 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:49:24,564 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:49:24,574 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:49:24,579 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:49:24,583 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:49:38,286 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:49:38,306 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 11:51:30,992 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:51:31,012 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:51:31,021 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:51:31,029 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:52:12,624 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:52:12,646 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:52:12,657 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:52:12,667 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:55:32,776 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:55:32,794 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:55:32,806 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:55:32,815 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:56:09,790 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:56:09,808 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:56:09,822 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:56:09,831 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:57:05,354 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 11:57:05,374 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 11:57:05,388 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 11:57:05,397 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 11:57:19,084 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 11:57:19,093 WARN  [default] Aborting application. Reason: Fatal log at [c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\easylogging++.h:5638]
+2016-12-03 12:02:30,243 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 12:02:30,257 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 12:02:30,265 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 12:02:30,271 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 12:02:44,965 FATAL [default] CRASH HANDLED; Application has crashed due to [SIGSEGV] signal
+2016-12-03 12:23:34,198 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 12:23:34,219 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 12:23:34,231 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 12:23:34,244 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 12:26:35,331 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 12:26:35,340 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 12:26:35,344 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 12:26:35,347 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:26:38,213 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:26:38,236 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:26:38,246 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:26:38,254 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:31:31,511 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:31:31,520 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:31:31,525 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:31:31,529 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:32:18,042 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:32:18,052 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:32:18,058 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:32:18,063 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:33:13,413 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:33:13,427 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:33:13,435 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:33:13,442 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:33:41,189 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:33:41,205 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:33:41,214 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:33:41,222 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:34:09,680 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:34:09,698 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:34:09,715 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:34:09,723 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:34:34,235 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:34:34,261 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:34:34,274 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:34:34,285 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:49:58,909 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:49:58,931 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:49:58,946 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:49:58,955 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:51:05,255 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:51:05,275 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:51:05,285 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:51:05,291 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:51:47,242 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:51:47,259 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:51:47,269 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:51:47,281 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:53:23,363 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:53:23,382 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:53:23,392 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:53:23,401 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:56:46,393 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:56:46,411 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:56:46,423 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:56:46,433 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 13:59:00,095 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 13:59:00,114 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 13:59:00,125 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 13:59:00,133 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 14:05:22,937 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 14:05:22,961 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:05:22,972 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:05:22,982 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 14:14:05,404 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 14:14:05,436 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:14:05,446 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:14:05,455 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 14:15:53,934 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 14:15:53,952 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:15:53,960 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:15:53,970 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 14:17:22,575 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 14:17:22,592 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:17:22,602 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:17:22,609 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 14:18:51,737 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 14:18:51,757 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:18:51,767 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:18:51,775 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 15:15:01,436 INFO  [default] Data read from ini file 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016\linux1.ini'
+
+2016-12-03 15:15:01,469 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 15:15:01,485 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 15:15:01,497 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+

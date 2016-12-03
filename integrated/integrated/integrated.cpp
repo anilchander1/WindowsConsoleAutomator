@@ -17,7 +17,9 @@
 #include <iostream>
 #include <direct.h>
 #include <map>
+#include <Wincon.h>
 #include <iterator>
+#define ELPP_DISABLE_DEFAULT_CRASH_HANDLING
 #include "easylogging++.h"
 #include <sys/stat.h>
 #include <regex>
@@ -344,16 +346,20 @@ void readConsole(void)
 
 
 
-
 	//for current prompt
-	ReadConsoleOutput(
-		hStdOut,        // screen buffer to read from 
-		chiBuffer,      // buffer to copy into 
-		coordBufSize,   // col-row size of chiBuffer 
-		coordBufCoord,  // top left dest. cell in chiBuffer 
-		&srctReadRect);
 
-	for (int i = 0; i<3200; i++)
+			ReadConsoleOutput(
+				hStdOut,        // screen buffer to read from 
+				chiBuffer,      // buffer to copy into 
+				coordBufSize,   // col-row size of chiBuffer 
+				coordBufCoord,  // top left dest. cell in chiBuffer 
+				&srctReadRect);
+
+		
+
+	
+
+	for (int i = 0; i < 3200; i++)
 	{
 		//c[i]=chiBuffer[i].Char.AsciiChar;
 		if (chiBuffer[i].Char.AsciiChar == '\0')
@@ -436,6 +442,120 @@ void readConsole(void)
 	return;
 }
 
+//****************************************************************************************************
+//CONSOLE WINDOW SETUP
+//******************************************************************************************************
+
+//window setup
+void SetConsoleWindowSize(int x, int y, HANDLE h)
+{
+	//HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
+
+	if (h == INVALID_HANDLE_VALUE)
+		throw std::runtime_error("Unable to get stdout handle.");
+
+	// If either dimension is greater than the largest console window we can have,
+	// there is no point in attempting the change.
+	{
+		COORD largestSize = GetLargestConsoleWindowSize(h);
+		if (x > largestSize.X)
+			throw std::invalid_argument("The x dimension is too large.");
+		if (y > largestSize.Y)
+			throw std::invalid_argument("The y dimension is too large.");
+	}
+
+
+	CONSOLE_SCREEN_BUFFER_INFO bufferInfo;
+	if (!GetConsoleScreenBufferInfo(h, &bufferInfo))
+		throw std::runtime_error("Unable to retrieve screen buffer info.");
+
+	SMALL_RECT& winInfo = bufferInfo.srWindow;
+	COORD windowSize = { winInfo.Right - winInfo.Left + 1, winInfo.Bottom - winInfo.Top + 1 };
+
+	if (windowSize.X > x || windowSize.Y > y)
+	{
+		// window size needs to be adjusted before the buffer size can be reduced.
+		SMALL_RECT info =
+		{
+			0,
+			0,
+			x < windowSize.X ? x - 1 : windowSize.X - 1,
+			y < windowSize.Y ? y - 1 : windowSize.Y - 1
+		};
+
+		if (!SetConsoleWindowInfo(h, TRUE, &info))
+			throw std::runtime_error("Unable to resize window before resizing buffer.");
+	}
+
+	COORD size = { x, y };
+	if (!SetConsoleScreenBufferSize(h, size))
+		throw std::runtime_error("Unable to resize screen buffer.");
+
+
+	SMALL_RECT info = { 0, 0, x - 1, y - 1 };
+	if (!SetConsoleWindowInfo(h, TRUE, &info))
+		throw std::runtime_error("Unable to resize window after resizing buffer.");
+}
+
+
+
+void ShowLastSystemError()
+{
+	LPSTR messageBuffer;
+	FormatMessageA(
+		FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM,
+		0,          // source
+		GetLastError(),
+		0,          // lang
+		(LPSTR)&messageBuffer,
+		0,
+		NULL);
+
+	std::cerr << messageBuffer << '\n';
+	LocalFree(messageBuffer);
+}
+
+COORD QueryUserForConsoleSize()
+{
+	COORD size = { 0, 0 };
+
+	std::cout << "New console size: ";
+	std::cin >> size.X >> size.Y;
+
+	return size;
+}
+
+
+//set screen buffer.
+void ScreenSize(int x, int y, HANDLE Handle) {
+
+	COORD coord;
+	coord.X = x;
+	coord.Y = y;
+
+	_SMALL_RECT Rect;
+	Rect.Top = 0;
+	Rect.Left = 0;
+	Rect.Bottom = x - 1;
+	Rect.Right = y - 1;
+
+	//HANDLE Handle = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleScreenBufferSize(Handle, coord);
+	SetConsoleWindowInfo(Handle, TRUE, &Rect);
+	SetConsoleWindowSize(x, y, Handle);
+
+}
+
+
+
+/*
+*********************************************************************************************
+END CONSOLE WINDOW SETUP
+
+*********************************************************************************************
+*/
+
+
 /*******************************************************************
 STARTS THE DESIRED PROCESS
 ********************************************************************/
@@ -472,10 +592,12 @@ void startProcess(std::string cmd)
 		return;
 	}
 	/*need to make buffer size = current console size to prevent scrolling*/
-	COORD scrsize;
-	scrsize.X = 100;//csbiInfo.srWindow.Right+1;
-	scrsize.Y = 36;//csbiInfo.srWindow.Bottom+1;
-	SetConsoleScreenBufferSize(hStdOut, scrsize);
+	//COORD scrsize;
+	//scrsize.X = 100;//csbiInfo.srWindow.Right+1;
+	//scrsize.Y = 36;//csbiInfo.srWindow.Bottom+1;
+	//SetConsoleScreenBufferSize(hStdOut, scrsize);
+	ScreenSize(100, 36, hStdOut);
+
 
 }
 //overloaded , just for running with arguments.
@@ -535,10 +657,12 @@ void startProcess(std::string cmd, std::string param)
 		return;
 	}
 	/*need to make buffer size = current console size to prevent scrolling*/
-	COORD scrsize;
-	scrsize.X = 100;//csbiInfo.srWindow.Right+1;
-	scrsize.Y = 36;//csbiInfo.srWindow.Bottom+1;
-	SetConsoleScreenBufferSize(hStdOut, scrsize);
+	//COORD scrsize;
+	//scrsize.X = 100;//csbiInfo.srWindow.Right+1;
+	//scrsize.Y = 36;//csbiInfo.srWindow.Bottom+1;
+	//SetConsoleScreenBufferSize(hStdOut, scrsize);
+
+	ScreenSize(100,36, hStdOut);
 
 }
 
@@ -569,6 +693,7 @@ void init(std::string pgm)
 	defaultConf.set(el::Level::Info, el::ConfigurationType::ToFile, "true");
 	defaultConf.set(el::Level::Info, el::ConfigurationType::Filename, "log\\" + pgm + "_%datetime{%d-%M-%Y_%h%m%s}.log");
 	el::Loggers::reconfigureLogger("default", defaultConf);
+	el::Loggers::addFlag(el::LoggingFlag::DisableApplicationAbortOnFatalLog);
 	//logger ends
 
 
@@ -792,7 +917,7 @@ void ExecComm(std::list<std::pair<std::string, std::string>> cmds)
 		if (currKey.find("#") != std::string::npos)//checking for history content
 		{
 			while (1)
-			{   //Sleep(3000);
+			{   //Sleep(10000);
 				readConsole();
 				m_chk = history;//read history value
 				LOG(INFO) << "Checking '" << commands[0] << "' in screen buffer history : " << std::endl << history << std::endl;
@@ -965,7 +1090,7 @@ void ExecComm(std::list<std::pair<std::string, std::string>> cmds)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	try {
+	//try {
 		std::list<std::pair<std::string, std::string>> Seq_cmds;
 		std::map<std::string, std::string> Path;
 		std::map<std::string, std::string> EnvironmentVariables;
@@ -1016,12 +1141,12 @@ int _tmain(int argc, _TCHAR* argv[])
 		LOG(INFO) << "Program Ended";
 		CloseHandle(pj.hProcess);
 		CloseHandle(pj.hThread);
-	}
-	catch (std::exception& e)
+	//}
+	/*catch (std::exception& e)
 	{
 		std::cout << e.what() << std::endl;
 
-	}
+	}*/
 	return 0;
 }
 

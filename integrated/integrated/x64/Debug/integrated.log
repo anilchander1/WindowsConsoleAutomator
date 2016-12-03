@@ -1,0 +1,7 @@
+﻿  integrated.cpp
+c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\integrated.cpp(484): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\integrated.cpp(490): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\integrated.cpp(495): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+c:\users\anilcha.oradev\source\repos\windowsconsoleautomator\integrated\integrated\integrated.cpp(827): warning C4715: 'processCwd': not all control paths return a value
+  integrated.vcxproj -> C:\Users\anilcha.ORADEV\Source\Repos\WindowsConsoleAutomator\integrated\x64\Debug\integrated.exe
+  integrated.vcxproj -> C:\Users\anilcha.ORADEV\Source\Repos\WindowsConsoleAutomator\integrated\x64\Debug\integrated.pdb (Full PDB)

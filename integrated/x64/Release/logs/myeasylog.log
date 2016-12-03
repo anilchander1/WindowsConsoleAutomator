@@ -1,0 +1,16 @@
+2016-12-03 14:04:18,232 INFO  [default] Data read from ini file 'linux1.ini'
+
+2016-12-03 14:04:18,245 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 14:04:18,256 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 14:04:18,266 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
+2016-12-03 15:23:04,807 INFO  [default] Data read from ini file 'linux1.ini'
+
+2016-12-03 15:23:04,819 INFO  [default] Changed working directory to: 'D:\BACKUP\autoit\C++\BUILDS\29-01-2016'
+
+2016-12-03 15:23:04,831 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME' and value : ''
+
+2016-12-03 15:23:04,839 INFO  [default] Skipping blank Env Var: 'PS_CFG_HOME1' and value : ''
+
