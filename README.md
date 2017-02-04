@@ -10,6 +10,7 @@ https://drive.google.com/file/d/0B-4scr3fQpEcRlBDSTNLU252UzA/view?usp=sharing
 
 
 #usage 
+Make sure that you have the latest Microsoft VC++ redistributable is installed.
 integrated.exe linux.ini<br>
 where "integrated.exe" is the name of the executable and ini file is the file to control the intented program.The execuatble file will read the ini file contents into memory.Then it will set any working directory specified for the session,set the environment variables for the session and start running the program specified with arguments ,if any.How the program needs to be terminated is specified by END keyword.<br>
 <p>
